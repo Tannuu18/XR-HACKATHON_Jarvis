@@ -1,0 +1,31 @@
+{
+  "rows": 7603,
+  "invalid_rows": 1001,
+  "duplicate_rows": 1,
+  "gaps": 1,
+  "spikes": 2,
+  "stationary_updates": 1826,
+  "initial_stationary": true,
+  "gyro_bias": [
+    -3.325478426991954e-07,
+    1.8894437592136304e-07,
+    9.19429748612859e-08
+  ],
+  "initial_accel_bias": [
+    -0.0,
+    6.014881943293901e-13,
+    -9.86166885027368e-06
+  ],
+  "duration_s": 40.0,
+  "velocity_prior_tau_s": 0.0,
+  "assumptions": [
+    "quiet windows imply zero velocity",
+    "initial velocity unobservable without a rest anchor",
+    "zero-mean velocity prior suppresses sustained motion"
+  ],
+  "wall_time_s": 0.358330599963665,
+  "python": "3.10.0",
+  "memory_profiled": false,
+  "estimator": "jarvis-inertial-v1",
+  "ms_per_sensor_second": 8.958264999091625
+}

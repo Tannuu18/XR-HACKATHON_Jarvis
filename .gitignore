@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.reference*/
+data/euroc/
+*.partial
+reports/*memory*.txt
+examples/mh01*.csv
+reports/*profile*.txt
+reports/mh01_tau*
+reports/mh01_stationary_baseline.txt
+reports/mh01_clean*
+reports/mh01_memory.json
+reports/synthetic_free*

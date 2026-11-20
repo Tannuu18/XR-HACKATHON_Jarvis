@@ -1,0 +1,10 @@
+{
+  "mirror": "https://github.com/Utkarsh-Sheel-A/Error-State-Kalman-Filter",
+  "mirror_commit": "95d964154de8f6f1e71937f914e510e4fd3ef237",
+  "sha256": {
+    ".reference-euroc/data/MH_01_easy/imu0/data.csv": "226470999dc8ba758c838982fd7eb2bc9f3f2b489e85a38d0ecf8b9d40785a5b",
+    ".reference-euroc/data/MH_01_easy/state_groundtruth_estimate0/data.csv": "b73e7232758dcf848d6cd4048be4eb2b4d20447d372785c4d16a6327615bc468",
+    "resources/official/degrade_imu.py": "cc7398db47efe8cefb581c13501f43687db2a5a13e7ed89697dc98afcd4b2f31",
+    "resources/official/Track3_FAQ_Responses.txt": "ab65a255a985e6871f7c3f0e4b16909275c6951a00644a6176197f98a270cb4e"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "alignment": "SE(3), no scale correction",
+  "association_tolerance_s": 0.02,
+  "matched_rows": 35190,
+  "ate_rmse_m": 3.98791735782954,
+  "ate_median_m": 3.8308236710574715,
+  "ate_max_m": 6.906251317618962,
+  "tail_5s_rmse_m": 5.809146596623364,
+  "rpe_1s_translation_rmse_m": 0.4501919437106366,
+  "rpe_1s_rotation_rmse_deg": 0.5717366262617496
+}

@@ -1,0 +1,111 @@
+{
+  "timing_runs": [
+    {
+      "rows": 35629,
+      "invalid_rows": 1002,
+      "duplicate_rows": 49,
+      "gaps": 18,
+      "spikes": 124,
+      "stationary_updates": 1727,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00311302,
+        0.021206510000000005,
+        0.08096445
+      ],
+      "initial_accel_bias": [
+        -0.028960855955086837,
+        0.0016109532755677579,
+        0.007910999431580369
+      ],
+      "duration_s": 184.09500002861023,
+      "velocity_prior_tau_s": 1.0,
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.7688223000150174,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v1",
+      "ms_per_sensor_second": 9.60820391504454
+    },
+    {
+      "rows": 35629,
+      "invalid_rows": 1002,
+      "duplicate_rows": 49,
+      "gaps": 18,
+      "spikes": 124,
+      "stationary_updates": 1727,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00311302,
+        0.021206510000000005,
+        0.08096445
+      ],
+      "initial_accel_bias": [
+        -0.028960855955086837,
+        0.0016109532755677579,
+        0.007910999431580369
+      ],
+      "duration_s": 184.09500002861023,
+      "velocity_prior_tau_s": 1.0,
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.6307155000977218,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v1",
+      "ms_per_sensor_second": 8.858010808790526
+    },
+    {
+      "rows": 35629,
+      "invalid_rows": 1002,
+      "duplicate_rows": 49,
+      "gaps": 18,
+      "spikes": 124,
+      "stationary_updates": 1727,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00311302,
+        0.021206510000000005,
+        0.08096445
+      ],
+      "initial_accel_bias": [
+        -0.028960855955086837,
+        0.0016109532755677579,
+        0.007910999431580369
+      ],
+      "duration_s": 184.09500002861023,
+      "velocity_prior_tau_s": 1.0,
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.8840964999981225,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v1",
+      "ms_per_sensor_second": 10.234370839541079
+    }
+  ],
+  "median_ms_per_sensor_second": 9.60820391504454,
+  "peak_algorithm_python_heap_bytes": 531379,
+  "memory_profile_wall_time_excluded_from_speed_claim": true,
+  "runtime_budget_pass": true,
+  "memory_budget_pass": true,
+  "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "format": {
+    "passed": true,
+    "rows": 35629,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.633642689659382e-10
+  }
+}

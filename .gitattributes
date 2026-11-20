@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.zip binary
+# Preserve organizer resources byte-for-byte, including original whitespace.
+resources/official/* -text -whitespace

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "rows": 7603,
+  "timestamps": "exact decimal match",
+  "max_quaternion_norm_error": 6.848484002119903e-10
+}
