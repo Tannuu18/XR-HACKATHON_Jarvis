@@ -1,7 +1,0 @@
-{
-  "estimator_sha256": "c6cc0808928c870fdbdc5a9dbdca82835b8285c9be6d0eeffa64d2d6bf7642d3",
-  "unit_tests_passed": 9,
-  "viewer_checks": "playback, blind-state, desktop and mobile layout, local upload, malformed input",
-  "benchmark_report": "reports/mh01_degraded_benchmark.json",
-  "accuracy_report": "reports/mh01_degraded_accuracy.json"
-}

@@ -1,4 +1,0 @@
-# The estimator main.py needs only Python 3.10+ standard library.
-# Evaluation and the unmodified organizer degradation script use:
-numpy>=1.24,<3
-pandas>=2.0,<4
