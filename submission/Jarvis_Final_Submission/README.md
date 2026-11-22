@@ -48,8 +48,11 @@ Optional offline evaluation: install NumPy, then run
 The estimator itself has no NumPy dependency and uses a single CPU thread.
 
 The package contains only the final source, viewer, tests, resources and results.
-Final presentation and form upload remain team tasks. The filled PPT is not
-included. This local revision has not been pushed to GitHub. No ranking,
-hidden-checkpoint result or accuracy percentage is claimed.
+The nine-slide presentation, built from the supplied hackathon template, is in
+`presentation/Jarvis_Track3_Submission.pptx`.
+AI use is disclosed in `docs/AI_DISCLOSURE.md`; APK/SDK is marked not applicable
+in `APK_SDK_NOT_APPLICABLE.md`. The form has not been submitted because its URL
+was not provided. No ranking, hidden-checkpoint result or accuracy percentage is
+claimed.
 
 Project: https://github.com/Tannuu18/XR-HACKATHON_Jarvis

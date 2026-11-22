@@ -25,8 +25,8 @@ Open `http://127.0.0.1:8765/` and upload a ZIP with one degraded IMU CSV. An opt
 
 The bundled trajectories are labelled public EuRoC development examples, not organizer results. Scores use rigid SE(3) alignment without scale correction; remaining errors and limitations are reported in the validation document. No ranking or hidden-test result is claimed.
 
-## Presentation and form
+## Presentation, AI disclosure, and APK / SDK
 
-The filled presentation and form submission are not included. The team member and college details and the form URL were not provided in this workspace.
+The nine-slide presentation uses the supplied hackathon template: [`Jarvis_Track3_Submission.pptx`](submission/Jarvis_Final_Submission/presentation/Jarvis_Track3_Submission.pptx). The team is Jarvis from VIT Chennai: Tanushree Adhikari, Manan Dudeja, and Neha S. AI use is disclosed in `docs/AI_DISCLOSURE.md`. APK / SDK is not applicable to the Python Track 3 deliverable. The submission form has not been submitted because its URL was not provided.
 
 Project: <https://github.com/Tannuu18/XR-HACKATHON_Jarvis>
