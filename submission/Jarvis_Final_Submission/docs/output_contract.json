@@ -1,0 +1,62 @@
+{
+  "MH_01_easy": {
+    "passed": true,
+    "rows": 35629,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.549179142391949e-10
+  },
+  "MH_02_easy": {
+    "passed": true,
+    "rows": 29480,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.619385205577146e-10
+  },
+  "MH_03_medium": {
+    "passed": true,
+    "rows": 26189,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.894036618301016e-10
+  },
+  "MH_04_difficult": {
+    "passed": true,
+    "rows": 19753,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.358862491064656e-10
+  },
+  "MH_05_difficult": {
+    "passed": true,
+    "rows": 22137,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.9659057955771e-10
+  },
+  "V1_02_medium": {
+    "passed": true,
+    "rows": 16624,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.494470682407496e-10
+  },
+  "V1_03_difficult": {
+    "passed": true,
+    "rows": 20844,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.906584358925329e-10
+  },
+  "V2_01_easy": {
+    "passed": true,
+    "rows": 22162,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.396461304016611e-10
+  },
+  "V2_02_medium": {
+    "passed": true,
+    "rows": 22880,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 9.013294555160201e-10
+  },
+  "V2_03_difficult": {
+    "passed": true,
+    "rows": 22623,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.654073013758534e-10
+  }
+}

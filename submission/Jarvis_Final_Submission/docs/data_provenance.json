@@ -1,0 +1,6 @@
+{
+  "download_url": "https://github.com/Air-IO/Air-IO/releases/download/datasets/EuRoC-Dataset.zip",
+  "archive_sha256": "de09fdd03e9147461fd678aa6763454bdf8d1f07172753a9ec80073e9be38e4a",
+  "degrader_sha256": "cc7398db47efe8cefb581c13501f43687db2a5a13e7ed89697dc98afcd4b2f31",
+  "note": "Only IMU and reference CSVs extracted; raw data excluded from Git. Author mirror of ETH EuRoC; dataset terms still apply."
+}

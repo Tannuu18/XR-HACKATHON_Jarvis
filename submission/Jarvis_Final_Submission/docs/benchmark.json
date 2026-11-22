@@ -1,0 +1,144 @@
+{
+  "timing_runs": [
+    {
+      "rows": 22623,
+      "invalid_rows": 1004,
+      "duplicate_rows": 28,
+      "gaps": 12,
+      "spikes": 0,
+      "stationary_updates": 0,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00174325,
+        0.024313500000000002,
+        0.08289875
+      ],
+      "initial_accel_bias": [
+        -0.012689557690329027,
+        0.00015826968676779392,
+        0.003614325615979244
+      ],
+      "calibration": {
+        "mode": "robust_quiet_fallback",
+        "anchor_relative_s": 1.505000114440918,
+        "quiet_score": 0.890120717629929,
+        "pooled_windows": 5
+      },
+      "velocity_prior_reason": "moving_start",
+      "duration_s": 116.84500026702881,
+      "velocity_prior_tau_s": 1.0,
+      "prediction_tau_s": 0.05,
+      "gap_window_reset": true,
+      "sensor_filter": "centered",
+      "integration": "trapezoid",
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.4266220000572503,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v3",
+      "ms_per_sensor_second": 12.209525412272285
+    },
+    {
+      "rows": 22623,
+      "invalid_rows": 1004,
+      "duplicate_rows": 28,
+      "gaps": 12,
+      "spikes": 0,
+      "stationary_updates": 0,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00174325,
+        0.024313500000000002,
+        0.08289875
+      ],
+      "initial_accel_bias": [
+        -0.012689557690329027,
+        0.00015826968676779392,
+        0.003614325615979244
+      ],
+      "calibration": {
+        "mode": "robust_quiet_fallback",
+        "anchor_relative_s": 1.505000114440918,
+        "quiet_score": 0.890120717629929,
+        "pooled_windows": 5
+      },
+      "velocity_prior_reason": "moving_start",
+      "duration_s": 116.84500026702881,
+      "velocity_prior_tau_s": 1.0,
+      "prediction_tau_s": 0.05,
+      "gap_window_reset": true,
+      "sensor_filter": "centered",
+      "integration": "trapezoid",
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.4597245999611914,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v3",
+      "ms_per_sensor_second": 12.492828932562336
+    },
+    {
+      "rows": 22623,
+      "invalid_rows": 1004,
+      "duplicate_rows": 28,
+      "gaps": 12,
+      "spikes": 0,
+      "stationary_updates": 0,
+      "initial_stationary": false,
+      "gyro_bias": [
+        -0.00174325,
+        0.024313500000000002,
+        0.08289875
+      ],
+      "initial_accel_bias": [
+        -0.012689557690329027,
+        0.00015826968676779392,
+        0.003614325615979244
+      ],
+      "calibration": {
+        "mode": "robust_quiet_fallback",
+        "anchor_relative_s": 1.505000114440918,
+        "quiet_score": 0.890120717629929,
+        "pooled_windows": 5
+      },
+      "velocity_prior_reason": "moving_start",
+      "duration_s": 116.84500026702881,
+      "velocity_prior_tau_s": 1.0,
+      "prediction_tau_s": 0.05,
+      "gap_window_reset": true,
+      "sensor_filter": "centered",
+      "integration": "trapezoid",
+      "assumptions": [
+        "quiet windows imply zero velocity",
+        "initial velocity unobservable without a rest anchor",
+        "zero-mean velocity prior suppresses sustained motion"
+      ],
+      "wall_time_s": 1.3795529999770224,
+      "python": "3.10.0",
+      "memory_profiled": false,
+      "estimator": "jarvis-inertial-v3",
+      "ms_per_sensor_second": 11.806692599805686
+    }
+  ],
+  "median_ms_per_sensor_second": 12.209525412272285,
+  "peak_algorithm_python_heap_bytes": 736419,
+  "memory_profile_wall_time_excluded_from_speed_claim": true,
+  "runtime_budget_pass": true,
+  "memory_budget_pass": true,
+  "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "format": {
+    "passed": true,
+    "rows": 22623,
+    "timestamps": "exact decimal match",
+    "max_quaternion_norm_error": 8.654073013758534e-10
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "MH_01_easy": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 35190,
+      "ate_rmse_m": 3.9457790607316943,
+      "ate_median_m": 3.8333811724966704,
+      "ate_max_m": 6.839667030656071,
+      "tail_5s_rmse_m": 5.417999691599691,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 34410,
+          "rmse_m": 3.913457209643029
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 1597,
+          "rmse_m": 4.4624959241017335
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 780,
+          "rmse_m": 5.174513099233305
+        },
+        "final_invalid_sensor_start_relative_s": 179.09500002861023
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.44714638758506786,
+      "rpe_1s_rotation_rmse_deg": 0.5409216046261588
+    },
+    "format": {
+      "passed": true,
+      "rows": 35629,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.549179142391949e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 22.139999866485596
+    }
+  },
+  "MH_02_easy": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 29068,
+      "ate_rmse_m": 3.7157425116509017,
+      "ate_median_m": 2.9732084644694092,
+      "ate_max_m": 6.396159444600023,
+      "tail_5s_rmse_m": 6.189375203413751,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 28290,
+          "rmse_m": 3.620664965541533
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 974,
+          "rmse_m": 3.612664350025309
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 778,
+          "rmse_m": 6.258639475790066
+        },
+        "final_invalid_sensor_start_relative_s": 146.99500012397766
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.5630999876726442,
+      "rpe_1s_rotation_rmse_deg": 1.1813770196926023
+    },
+    "format": {
+      "passed": true,
+      "rows": 29480,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.619385205577146e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 26.875
+    }
+  },
+  "MH_03_medium": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 25483,
+      "ate_rmse_m": 3.301318801524735,
+      "ate_median_m": 2.636205949066462,
+      "ate_max_m": 8.394267468407872,
+      "tail_5s_rmse_m": 2.799577307142874,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 24708,
+          "rmse_m": 3.3129465491667287
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 1189,
+          "rmse_m": 2.239895384954047
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 775,
+          "rmse_m": 2.906328853751762
+        },
+        "final_invalid_sensor_start_relative_s": 130.0349998474121
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.912567067598818,
+      "rpe_1s_rotation_rmse_deg": 0.7242527058886455
+    },
+    "format": {
+      "passed": true,
+      "rows": 26189,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.894036618301016e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 11.009999752044678
+    }
+  },
+  "MH_04_difficult": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 19185,
+      "ate_rmse_m": 6.656801751316197,
+      "ate_median_m": 4.727466170840749,
+      "ate_max_m": 12.626347354986637,
+      "tail_5s_rmse_m": 4.22829387922312,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 18414,
+          "rmse_m": 6.736192670559305
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 688,
+          "rmse_m": 7.271830886200399
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 771,
+          "rmse_m": 4.349523740389291
+        },
+        "final_invalid_sensor_start_relative_s": 96.59500026702881
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 1.0180444880307904,
+      "rpe_1s_rotation_rmse_deg": 0.5945274781460791
+    },
+    "format": {
+      "passed": true,
+      "rows": 19753,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.358862491064656e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 1.1000001430511475
+    }
+  },
+  "MH_05_difficult": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 21626,
+      "ate_rmse_m": 6.686464818471743,
+      "ate_median_m": 5.2488862749141045,
+      "ate_max_m": 12.770610321106659,
+      "tail_5s_rmse_m": 3.812974141583024,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 20850,
+          "rmse_m": 6.765538337076604
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 578,
+          "rmse_m": 8.144345513001465
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 776,
+          "rmse_m": 4.016068058709737
+        },
+        "final_invalid_sensor_start_relative_s": 108.60000014305115
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.9313087759400328,
+      "rpe_1s_rotation_rmse_deg": 0.38070222946599525
+    },
+    "format": {
+      "passed": true,
+      "rows": 22137,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.9659057955771e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 0.5
+    }
+  },
+  "V1_02_medium": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 16225,
+      "ate_rmse_m": 1.5203748745495214,
+      "ate_median_m": 1.41470975061893,
+      "ate_max_m": 2.8971519283113034,
+      "tail_5s_rmse_m": 0.6820848942631845,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 15420,
+          "rmse_m": 1.5500953701040876
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 742,
+          "rmse_m": 1.5730780946567222
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 805,
+          "rmse_m": 0.7506713934229495
+        },
+        "final_invalid_sensor_start_relative_s": 80.49499988555908
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.6086543937417364,
+      "rpe_1s_rotation_rmse_deg": 0.6791141711807854
+    },
+    "format": {
+      "passed": true,
+      "rows": 16624,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.494470682407496e-10
+    },
+    "calibration": {
+      "mode": "later_quiet",
+      "anchor_relative_s": 0.5
+    }
+  },
+  "V1_03_difficult": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 20275,
+      "ate_rmse_m": 1.4888918755397094,
+      "ate_median_m": 1.2257806013110166,
+      "ate_max_m": 2.7077322161321415,
+      "tail_5s_rmse_m": 1.2336143927241539,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 19473,
+          "rmse_m": 1.4976265051290087
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 845,
+          "rmse_m": 0.9755560999606787
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 802,
+          "rmse_m": 1.2583375639880314
+        },
+        "final_invalid_sensor_start_relative_s": 102.49499988555908
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.41168051417519846,
+      "rpe_1s_rotation_rmse_deg": 0.5665066857147022
+    },
+    "format": {
+      "passed": true,
+      "rows": 20844,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.906584358925329e-10
+    },
+    "calibration": {
+      "mode": "initial_quiet",
+      "anchor_relative_s": 0.0
+    }
+  },
+  "V2_01_easy": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 21762,
+      "ate_rmse_m": 2.0796472739054574,
+      "ate_median_m": 1.8717932071100636,
+      "ate_max_m": 3.2405476119320196,
+      "tail_5s_rmse_m": 3.149098132368964,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 20905,
+          "rmse_m": 2.0217062041705236
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 782,
+          "rmse_m": 2.4440301182539077
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 857,
+          "rmse_m": 3.181456053294057
+        },
+        "final_invalid_sensor_start_relative_s": 108.99500012397766
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.288457846886608,
+      "rpe_1s_rotation_rmse_deg": 0.3695683831367821
+    },
+    "format": {
+      "passed": true,
+      "rows": 22162,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.396461304016611e-10
+    },
+    "calibration": {
+      "mode": "robust_quiet_fallback",
+      "anchor_relative_s": 1.0049998760223389,
+      "quiet_score": 0.6201096412496869,
+      "pooled_windows": 5
+    }
+  },
+  "V2_02_medium": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 22479,
+      "ate_rmse_m": 1.9242526989562236,
+      "ate_median_m": 1.8135287152778317,
+      "ate_max_m": 2.9742837566442915,
+      "tail_5s_rmse_m": 2.3369179972933116,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 21624,
+          "rmse_m": 1.907029272546872
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 517,
+          "rmse_m": 2.0201004922352355
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 855,
+          "rmse_m": 2.3176844106199446
+        },
+        "final_invalid_sensor_start_relative_s": 112.44500017166138
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.502157449150133,
+      "rpe_1s_rotation_rmse_deg": 0.6413744349304159
+    },
+    "format": {
+      "passed": true,
+      "rows": 22880,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 9.013294555160201e-10
+    },
+    "calibration": {
+      "mode": "robust_quiet_fallback",
+      "anchor_relative_s": 1.005000114440918,
+      "quiet_score": 0.5829881445262072,
+      "pooled_windows": 3
+    }
+  },
+  "V2_03_difficult": {
+    "accuracy": {
+      "alignment": "SE(3), no scale correction",
+      "association_tolerance_s": 0.02,
+      "matched_rows": 22222,
+      "ate_rmse_m": 1.9899824918183417,
+      "ate_median_m": 1.9072606684011297,
+      "ate_max_m": 3.2692271524523604,
+      "tail_5s_rmse_m": 2.6051656066959787,
+      "regimes": {
+        "valid_sensor": {
+          "matched_rows": 21376,
+          "rmse_m": 1.9610438394954806
+        },
+        "within_half_second_after_gap": {
+          "matched_rows": 1040,
+          "rmse_m": 2.202778830431262
+        },
+        "final_invalid_sensor_window": {
+          "matched_rows": 846,
+          "rmse_m": 2.6170610956306866
+        },
+        "final_invalid_sensor_start_relative_s": 111.84500026702881
+      },
+      "regime_note": "Same global SE(3) alignment; failure masks come from input validity. Gap metric covers supplied poses within 0.5 s after gaps over 0.05 s, not hidden dropout/checkpoint scores.",
+      "rpe_1s_translation_rmse_m": 0.5707371917704375,
+      "rpe_1s_rotation_rmse_deg": 2.5306950743507275
+    },
+    "format": {
+      "passed": true,
+      "rows": 22623,
+      "timestamps": "exact decimal match",
+      "max_quaternion_norm_error": 8.654073013758534e-10
+    },
+    "calibration": {
+      "mode": "robust_quiet_fallback",
+      "anchor_relative_s": 1.505000114440918,
+      "quiet_score": 0.890120717629929,
+      "pooled_windows": 5
+    }
+  }
+}

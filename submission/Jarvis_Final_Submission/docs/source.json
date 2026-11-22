@@ -1,0 +1,5 @@
+{
+  "source_sha256": "c9b0a3cbc45b28397ddce34b8a8b01b278fe467f87cad25cc0eb147c9c040800",
+  "algorithm": "Final physics-based baseline only; ESKF and historical options removed",
+  "inference_dependencies": "Python standard library only"
+}

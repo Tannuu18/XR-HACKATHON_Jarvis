@@ -1,0 +1,42 @@
+{
+  "rows": 22623,
+  "invalid_rows": 1004,
+  "duplicate_rows": 28,
+  "gaps": 12,
+  "stationary_updates": 0,
+  "initial_stationary": false,
+  "gyro_bias": [
+    -0.00174325,
+    0.024313500000000002,
+    0.08289875
+  ],
+  "initial_accel_bias": [
+    -0.012689557690329027,
+    0.00015826968676779392,
+    0.003614325615979244
+  ],
+  "calibration": {
+    "mode": "robust_quiet_fallback",
+    "anchor_relative_s": 1.505000114440918,
+    "quiet_score": 0.890120717629929,
+    "pooled_windows": 5
+  },
+  "velocity_prior_reason": "moving_start",
+  "duration_s": 116.84500026702881,
+  "velocity_prior_tau_s": 1.0,
+  "prediction_tau_s": 0.05,
+  "gap_window_reset": true,
+  "sensor_filter": "centered",
+  "integration": "trapezoid",
+  "assumptions": [
+    "quiet windows imply zero velocity",
+    "initial velocity unobservable without a rest anchor",
+    "zero-mean velocity prior suppresses sustained motion"
+  ],
+  "wall_time_s": 1.2958399001508951,
+  "python": "3.10.0",
+  "memory_profiled": false,
+  "estimator": "jarvis-final-v3",
+  "ms_per_sensor_second": 11.09024688424391,
+  "dataset_role": "Public V2_03 development example; rerun on the organizer input"
+}
